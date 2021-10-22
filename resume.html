@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Resume</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+  background-color: #666;
+  padding: 30px;
+border: solid black 2px;
+ 
+  font-size: 35px;
+  color: white;
+}
+.name
+{
+text-align:right;}
+.photo
+{
+text-align:left;
+}
+
+
+nav {
+  float: left;
+  width: 30%;
+border: solid black 3px;
+  height: 850px;
+  background: #ccc;
+  padding: 20px;
+}
+
+nav .email, .contact, .address, .projects,.lang{
+  font-size:25px;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 850px;
+border: solid black 2px;
+}
+
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+footer {
+  background-color: #666;
+  padding: 30px;
+border: solid black 2px;
+  text-align: left;
+  color: white;
+}
+table, th, td {
+  border:1px solid black;
+}
+
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+.column {
+ background-color: #666;
+  float: left;
+  width: 50%;
+  
+  height: 200px; /* Should be removed. Only for demonstration */
+}
+
+
+.row:after {
+ background-color: #666;
+  content: "";
+  display: table;
+  clear: both;
+}
+.a
+{
+font-size:15px;}
+.name
+{
+color:black;}
+.head
+{
+text-align:right;
+color:black;}
+</style>
+</head>
+<body>
+
+<header>
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+     <img src="s.jpg" class="photo "alt="photo"> 
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h1 class="name">Lopamudra Panda</h1>
+    <h3 class="head">Resume</h3>
+  </div>
+</div>
+</header>
+
+<section>
+  <nav>
+    <div class="email"><b>Email:</b> abc@gmail.com</div><br><br>
+    <div class="contact"><b>Contact no.:</b>987654321</div><br><br>
+    <div class="address"><b>Address:</b> 12/4, xxx nagar,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; yyy,zzz.</div><br>
+    <div class="projects"><b>Front-End projects:</b>
+     <ol><li><a href="https://lopamudra1527.github.io/tindog/">Tindog</a></li><li><a href="https://lopamudra1527.github.io/huddle/">Huddle</a></li><li><a href="https://lopamudra1527.github.io/catclock/">Catclock</a></li></ol>
+     </div>
+<div class="lang"><b>Languages Known : </b>  <ul><li>English</li>
+<li>Hindi</li>
+<li>Tamil</li>
+<li> Oriya</li>
+</ul></div>
+</nav>
+ 
+  <article>
+    <h3><u><b>Objective</b></u></h3>
+<p class="a">&nbsp;&nbsp;To attain a position of software intern in development field to contribute my knowledge, skills and experience for the advancement of the company while studying and making myself grow with the company. Looking for a challenging career which demands the best of my professional ability in terms of, technical and analytical skills.</p>
+<h3><u><b>Academic performance</b></u></h3>
+<table style="width:100%" class="a">
+  <tr>
+    <th><b>School/University</th>
+    <th>Year</th>
+    <th>Score</b></th>
+  </tr>
+  <tr>
+    <td>GRD-CPF Mat.Hr.Sec.School</td>
+    <td>2017</td>
+    <td>99.4 %</td>
+  </tr>
+  <tr>
+    <td>GRD-CPF Mat.Hr.Sec.School</td>
+    <td>2019</td>
+    <td>90.6 %</td>
+  </tr>
+<tr>
+    <td>VIT-AP UNIVERSITY</td>
+    <td>2019-2023</td>
+    <td>8.44 (CGPA)</td>
+  </tr>
+</table>
+<h3><u><b>Experience</b></u></h3>
+<p class="a"><ul><li><b>Collegedunia</b> - Content Writer (2019)</li> <li><b>Writeorant</b> - Content Writer (2020)</li><li><b>The Sparks Foundation</b> - Web developer (2020)</li></ul></p>
+<h3><u><b>Area of proficiency</b></u></h3>
+<p class="a"><ul><li>Java</li>
+<li>Spring framework</li>
+<li> Front end using React JS</li>
+<li> Backend using Java</li>
+<li> English proficiency</li>
+<li>Database: My-Sql.</li></ul></p>
+<h3><u><b>Personal Qualities</b></u></h3>
+<p class="a">
+<ul><li>Exceptional presentation skills.</li>
+<li>Strong leadership and patience full skills</li>
+<li> Exceptional Communication skills in both written and verbal.</li>
+<li> Able to give the best result in even worse situations.</li></ul>
+</p>
+<h3><u><b>Declaration</b></u></h3>
+<p><b>I hearby declare that, I will contribute my efforts towards the growth of company sincerely without involving in any unecessary activities.</b></p> 
+  </article>
+</section>
+
+<footer>
+  <h4>Linked in: https://www.linkedin.com/in/Lopamudra/ </h4>
+  <h4>Github id: https://lopamudra1527.github.io/</h4>
+</footer>
+
+</body>
+</html>
+
